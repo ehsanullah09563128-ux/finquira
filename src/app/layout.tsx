@@ -11,7 +11,32 @@ export const metadata: Metadata = {
   },
   description: APP_DESCRIPTION,
   applicationName: APP_NAME,
-  keywords: ["personal finance", "expense tracker", "saving committee", "loan tracker", "budgeting"],
+  keywords: [
+    "personal finance",
+    "expense tracker",
+    "saving committee",
+    "loan tracker",
+    "budgeting",
+  ],
+
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        type: "image/x-icon",
+      },
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon-96x96.png",
+        type: "image/png",
+        sizes: "96x96",
+      },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export const viewport: Viewport = {
